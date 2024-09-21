@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color:#f4f4f4; 
+    padding: 0px;
+}
+
+.logo{
+    float: left;
+    margin-left: 20px; 
+    max-width: 50%; 
+    height: auto;
+    margin-top: 80px;
+}
+.top-bar nav{
+    background-color: #333;
+    padding: 5px 5px;
+    height: 60px;
+    
+    
+}
+.top-bar nav ul{
+   list-style: none;
+   display: flex;
+   margin-left: 30px;
+   font-weight: bold;
+   color: #f4f4f4;
+ 
+  
+}
+body{
+    font-family: serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-color: #f8f9fa;
+    background-size: 100% 100%;
+   
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 800px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+   
+}
+
+
+header nav ul li a:hover{
+    color: tomato;
+}
+
+.bg {
+    position: relative;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.bg h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-weight: bold; 
+    font-size: 60px;
+}
+
+
+.container {
+    max-width: 960px;
+    padding: 0 15px;
+    text-align: center;
+    
+}
+.container-touch{
+    text-align: center;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 50px 0;
+    align-items: center;
+    margin-left: 170px;
+  
+}
+
+.contact-section .row {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact-form form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form form .form-group {
+    margin-bottom: 15px;
+}
+
+
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.contact-form form button {
+  
+
+        color: tomato;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+        border-color: #f4f4f4;
+        padding: 10px;
+    
+
+    
+}
+.contact-form form button:hover{
+    background-color: rgb(159, 151, 149);;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 15px;
+}
+
+.contact-info ul li span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
