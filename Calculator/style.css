@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.container{
+width: 100%;
+height: 100vh;
+background-color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.calc{
+    background-color: #1f2533; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ .calc form input{
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6); */
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
+} 
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+   
+    text-align: right;
+    font-size: 35px;
+    flex: 1;
+    box-shadow: none;
+  
+}
+form input.operator{
+    color: #2f9fff;
+}
